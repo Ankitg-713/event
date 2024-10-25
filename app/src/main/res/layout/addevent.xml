@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etEventName"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Event Name" />
+
+    <EditText
+        android:id="@+id/etEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Event Date" />
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#EB8FC7"
+        android:text="Add Event" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        app:srcCompat="@drawable/calendar" />
+</LinearLayout>
